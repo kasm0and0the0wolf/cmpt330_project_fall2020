@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h1 style="color:red;"><center>Welcome to Checkout!</center></h1>
+        <title>Richards' Checkout</title>
+        <link rel="stylesheet" href="checkout.css">
+    </head>
+    
+    <body style="background-color: goldenrod;">
+        <p><b>Please review you order</b></p>
+       
+        <!--replace images with matching images and replacing item 1 (example) with name of actual item -->
+        <img src="https://images.timberland.com/is/image/timberland/A1EBD100-HERO?wid=720&hei=720&fit=constrain,1&qlt=85,1&op_usm=1,1,6,0" alt="item 1" height="150" width="150"><p>Item 1</p>
+        <img src="https://images.timberland.com/is/image/timberland/A1EBD100-HERO?wid=720&hei=720&fit=constrain,1&qlt=85,1&op_usm=1,1,6,0" alt="item 1" height="150" width="150"><p>Item 2</p>
+        <img src="https://images.timberland.com/is/image/timberland/A1EBD100-HERO?wid=720&hei=720&fit=constrain,1&qlt=85,1&op_usm=1,1,6,0" alt="item 1" height="150" width="150"><p>Item 3</p>
+        <img src="https://images.timberland.com/is/image/timberland/A1EBD100-HERO?wid=720&hei=720&fit=constrain,1&qlt=85,1&op_usm=1,1,6,0" alt="item 1" height="150" width="150"><p>Item 4</p>
+       
+        <table id="checkout-cart" class="shopping cart">
+            <thead>
+                <tr>
+                    <th scope="col">Item Quantity Price:</th>
+                </tr>
+            </thead>
+        </table>
+        <div id="pricing">
+            <p id="shipping"><strong>Shipping:</strong></p>
+            <p id="sub-total"><strong>Total:</strong></p>
+        </div>
+        <input type="submit" id="paypal-btn" class= "btn" value="Checkout with Paypal"/>
+        <input type="submit" id="paypal-btn" class= "btn" value="Checkout with Credit Card"/>
+    </body>
+</html>
+
