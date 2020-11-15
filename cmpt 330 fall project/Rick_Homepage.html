@@ -12,10 +12,29 @@ p 	{border: 3px solid gold;
     text-align: center;
     font-size:30px;
 }
-p1  {border: 3px solid red;
-	font-family: impact;
-    text-align: center;
-    font-size:20px;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
 }
     
  .img {
@@ -36,20 +55,25 @@ p1  {border: 3px solid red;
 
 <title>Richard’s Outdoor Store</title>
                                                   
-<img src="file:StoreLogo.png" alt="Logo"> 
+<img src="file:StoreLogo.png" alt="Logo" > 
 
 <p>Welcome to Richard’s Outdoor Store</p>
                                                                   
+<!--
 <p1><a href="file:Rick_StorePage.html">Shop Now!</a> </p1>
 <br>
 <p1><a href="file:Rick_ShoppingCart.html">View Cart</a> </p1>
 <br>
 <!--"<p1><a href="file:Rick_checkoutversion2.html">Ready to Checkout?</a> </p1>
-<br>" Commenting this out for now, because having both a cart button and a checkout button is redundant-->
+<br>" Commenting this out for now, because having both a cart button and a checkout button is redundant
 <p1><a href="file:Rick_about.html">About Rick's</a> </p1>
 <br>
-                                    
-
+        -->                            
+<ul>
+  <li><a href="file:Rick_StorePage.html">Shop</a></li>
+  <li><a href="file:Rick_ShoppingCart.html">Cart</a></li>
+  <li><a href="file:Rick_about.html">About</a></li>
+</ul>
 
 
 </body>
